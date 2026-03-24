@@ -1,31 +1,135 @@
-# [🌟Ads：MyNav chrome extension](https://chromewebstore.google.com/detail/my-nav/hagcohiondnnjimialmlneleljfmkflf?authuser=0&hl=en)
+<div align="center">
 
-# bulk-delete-chatGPT
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:1f1f1f&height=220&section=header&text=ChatGPT%20Bulk%20Cleaner&fontSize=45&fontColor=f59e0b&fontAlignY=35&desc=Delete%20hundreds%20of%20chats%20in%20seconds&descSize=18&descAlignY=55&descColor=9ca3af&animation=fadeIn" width="100%" />
 
-English | [中文版本](./README-CN.md)
+<br/>
 
-## Project Introduction
+<a href="https://chromewebstore.google.com/detail/chatgpt-bulk-delete/effkgioceefcfaegehhfafjneeiabdjg">
+  <img src="https://img.shields.io/badge/Open%20in%20Chrome%20Web%20Store-111111?style=for-the-badge&logo=googlechrome&logoColor=f59e0b" />
+</a>
+<a href="https://chat.openai.com/">
+  <img src="https://img.shields.io/badge/Open%20ChatGPT-111111?style=for-the-badge&logo=chatbot&logoColor=f59e0b" />
+</a>
 
-`bulk-delete-chatGPT` is a Chrome extension designed to bulk-delete conversations on ChatGPT pages. This extension allows you to quickly and easily manage conversations on ChatGPT pages. It features a clean and intuitive user interface, providing an efficient way to perform bulk deletion of conversations.
+<br/><br/>
 
-## Screenshot
+<img src="https://img.shields.io/badge/Version-1.0.0-111111?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Platform-Chrome-111111?style=for-the-badge&logo=googlechrome&logoColor=f59e0b" />
+<img src="https://img.shields.io/badge/Status-Active-111111?style=for-the-badge" />
+
+<br/><br/>
+
+A simple Chrome extension to clean your ChatGPT sidebar in seconds.
+
+---
+
+</div>
+
+## The Problem
+
+ChatGPT doesn’t support bulk deletion.
+
+If you have hundreds of chats:
+- You delete one  
+- Then another  
+- Then another  
+
+It’s slow, repetitive, and pointless.
+
+---
+
+## The Solution
+
+This extension adds a control layer directly into ChatGPT:
+
+- Adds checkboxes to every conversation  
+- Lets you select multiple chats  
+- Deletes everything in one click  
+
+No reloads. No complexity.
+
+---
+
+## Features
 
 <table>
-  <tr>
-    <td><img src="./assets/1.jpg" alt="图片1" style="max-width: 100%;"></td>
-    <td><img src="./assets/2.jpg" alt="图片2" style="max-width: 100%;"></td>
-    <td><img src="./assets/3.jpg" alt="图片3" style="max-width: 100%;"></td>
-  </tr>
+<tr>
+<td width="50%">
+
+### Core
+- Bulk select conversations  
+- One-click delete  
+- Shift + select support  
+- Toggle checkboxes anytime  
+
+</td>
+<td width="50%">
+
+### Experience
+- Clean UI integration  
+- Lightweight  
+- Runs fully in browser  
+- No tracking / no data storage  
+
+</td>
+</tr>
 </table>
 
-## Usage Instructions
+---
 
-- Go to the [ChatGPT Bulk Delete Chrome extension page](https://chrome.google.com/webstore/detail/chatgpt-bulk-delete/effkgioceefcfaegehhfafjneeiabdjg) in the Chrome Web Store.
-- Click the "Add to Chrome" button to install the extension.
-- Open the [ChatGPT website page](https://chat.openai.com/).
-- Click the `bulk-delete-chatGPT` extension icon in the top-right corner of your browser.
-- Click the "Add checkboxes" button. The extension will automatically add a checkbox in front of each conversation on the ChatGPT page.
-- Select the conversations you wish to delete.
-- Click the "Bulk delete" button, and the selected conversations will be deleted.
-- If needed, you can click the "Remove checkboxes" button to hide the checkboxes.
-- It's possible to select all checkboxes between your last selection and the one being selected by holding shift.
+## Preview
+
+<div align="center">
+
+<img src="./assets/1.jpg" width="30%" />
+<img src="./assets/2.jpg" width="30%" />
+<img src="./assets/3.jpg" width="30%" />
+
+</div>
+
+---
+
+## Usage
+
+1. Install the extension from Chrome Web Store  
+2. Open ChatGPT  
+3. Click the extension icon (top-right)  
+4. Click **"Add checkboxes"**  
+5. Select conversations  
+6. Click **"Bulk delete"**  
+7. (Optional) Remove checkboxes anytime  
+
+> Hold **Shift** to select multiple chats faster.
+
+---
+
+## Why I Built This
+
+Had too many chats.  
+Deleting manually was a waste of time.  
+
+So I built a faster way.
+
+---
+
+## Installation
+
+<div align="left">
+
+<a href="https://chrome.google.com/webstore/detail/chatgpt-bulk-delete/effkgioceefcfaegehhfafjneeiabdjg">
+  <img src="https://img.shields.io/badge/Install%20Extension-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=111111" />
+</a>
+
+</div>
+
+---
+
+## Notes
+
+- Works directly on ChatGPT UI  
+- No backend involved  
+- Everything runs locally  
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:1f1f1f&height=120&section=footer" width="100%" />
+</div>
